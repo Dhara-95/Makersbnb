@@ -72,11 +72,14 @@ We're transferring our knowledge of Ruby applications into Javascript.
 Our controller is created using JS, Node & Express.
 Our test environment will be in Jasmine. 
 
-**Instructions**
+**Installation Instructions**
 ----
-Run:
+To install this repo on your local computer run the following commands in the terminal:
+
 ```
-npm install
+$ git clone git@github.com:Dhara-95/Makersbnb.git
+$ cd Makersbnb
+$ npm install
 ```
 
 To run the server:
@@ -85,11 +88,15 @@ To run the server:
 node app.js
 ```
 
-The LocalHost should be used to run this program:
+To view the web application, open your web browser and navigate to http://localhost:3000 (ensure the server is run before navigating to this web address).
+
+**Run Tests**
+----
+To run the tests, open the SpecRunner.html file by running the following command in the terminal:
 
 ```
-localhost:3000
-```
+$ open ./SpecRunner.html
+``` 
 
 **Database**
 ----
